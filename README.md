@@ -11,7 +11,7 @@ Inverted Camera Logic: Optimized for hardware-level image normalization using li
 Deterministic Priority Logic: A custom-built controller that manages three execution layers: Manual Scan, Reactive Safety Reflex, and Ambient Awareness.
 
 🛠️ Tech Stack
-Processor: Raspberry Pi 5 (8GB RAM, Broadcom BCM2712 SoC)
+Processor: Raspberry Pi 5 (4GB RAM, Broadcom BCM2712 SoC)
 
 Vision: Sony IMX708 / OV5647 Camera Module (Night Vision Enabled)
 
