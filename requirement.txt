@@ -1,0 +1,16 @@
+# --- Shravan Project Dependencies ---
+# Core AI and Computer Vision
+ultralytics==8.1.0
+opencv-python>=4.8.0.76
+numpy>=1.24.0
+
+# Hardware Interfacing (Raspberry Pi Specific)
+RPi.GPIO>=0.7.1
+spidev>=3.6
+
+# Audio and Voice Feedback
+pyttsx3>=2.90
+
+# System and Utilities
+subprocess.run
+pyserial>=3.5
