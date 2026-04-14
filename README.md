@@ -36,7 +36,7 @@ Priority 3 (Ambient): Standard mode for continuous background scanning in clear 
 Clone the repository:
 
 Bash
-git clone https://github.com/yourusername/shravan-smart-stick.git
+git clone https://github.com/pi-electronics32/Shravan
 Install dependencies:
 
 Bash
