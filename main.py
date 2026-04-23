@@ -18,7 +18,7 @@ ULTRA_CONFIG = {
 BUTTON_PIN = 16
 FAN_PIN = 12          
 REFLEX_THRESHOLD = 80 # 100cm boundary
-DANGER_ZONE = 50        # Paas wala khatra
+DANGER_ZONE = 50        # Near By Danger
 SPEECH_DELAY = 3.5
 
 def main():
@@ -83,6 +83,8 @@ def main():
                         advice = "Obstacle ahead and Right. Move Left."
                     elif dist_C < DANGER_ZONE:
                         advice = "Obstacle ahead. Move " + ("Left" if dist_L > dist_R else "Right")
+                    elif dist_L < DANGER_ZONE and dist_R < DANGER_ZONE:
+                        advice = "Obstacle Left and Right. Move Forward."
                     elif dist_L < DANGER_ZONE: advice = "Object on your left"
                     elif dist_R < DANGER_ZONE: advice = "Object on your right"
                     
