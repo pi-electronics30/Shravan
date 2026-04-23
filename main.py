@@ -5,7 +5,7 @@ import cv2
 
 # Internal Modules Import
 from src.speech import VoiceEngine
-from src.ultrasonic import UltrasonicManager
+from src.ultrasonic import UltrasonicManager                    
 from src.vision import VisionManager
 from src.fan_control import FanManager
 
